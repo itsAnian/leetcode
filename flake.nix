@@ -10,6 +10,7 @@
     in {
         devShells.${system}.default = pkgs.mkShell {
             buildInputs = [
+                pkgs.pyright
                 pkgs.python3
             ];
             shellHook = ''
