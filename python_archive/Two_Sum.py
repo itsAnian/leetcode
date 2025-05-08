@@ -4,6 +4,7 @@ def twoSum(nums, target):
     :type target: int
     :rtype: List[int]
     """
+
     for i in range(len(nums)):
         for ii in range(len(nums)):
             tmp = nums[i] + nums[ii]
